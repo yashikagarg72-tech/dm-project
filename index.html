@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Beauty Transformation Services | AY COSMETICS</title>
+    <meta name="description" content="Discover luxury B2C bridal glamor, expert editorial makeup styling, and data-backed signature look masterclasses designed by AY COSMETICS. Book now.">
+    
+    <meta property="og:title" content="Premium Beauty Transformation Services | AY COSMETICS">
+    <meta property="og:description" content="Elevate your appearance with modern minimalist aesthetic makeup services. Book tailored consultations with luxury specialists.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ay-cosmetics.vercel.app">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="#home" class="logo">AY<span>.</span>COSMETICS</a>
+            <nav aria-label="Main Navigation Route Engine">
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hamburger" aria-label="Toggle Mobile Menu Navigation" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1>Unveil Your Luxury Signature Beauty Look</h1>
+                    <p>High-end editorial and modern beauty transformation systems crafted explicitly to compliment your facial profile. Experience structured aesthetics tailored by data-driven artistry.</p>
+                    <div class="hero-ctas">
+                        <a href="#contact" class="btn btn-primary">Book A Call</a>
+                        <a href="#audit-capture" class="btn btn-secondary">Get An Audit</a>
+                    </div>
+                </div>
+                
+                <div class="hero-form-container" id="audit-capture">
+                    <h3>Secure Luxury Evaluation</h3>
+                    <p>Receive custom consultation parameters tailored to your profile.</p>
+                    <form action="#" method="POST" autocomplete="on">
+                        <div class="form-group">
+                            <label for="hero-name">Full Name</label>
+                            <input type="text" id="hero-name" name="name" class="form-control" placeholder="E.g., Charlotte Sterling" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hero-email">Email Address</label>
+                            <input type="email" id="hero-email" name="email" class="form-control" placeholder="name@luxury-domain.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hero-phone">Mobile Number</label>
+                            <input type="tel" id="hero-phone" name="phone" class="form-control" placeholder="+1 (555) 000-0000" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hero-service">Select Your Desired Look</label>
+                            <select id="hero-service" name="service" class="form-control" required>
+                                <option value="" disabled selected>Choose your experience</option>
+                                <option value="bridal">Premium Bridal Glam Package</option>
+                                <option value="editorial">Editorial &amp; Event Transformation</option>
+                                <option value="masterclass">1-on-1 Strategy Masterclass</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Claim Personalized Consultation</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- About My Brand Section -->
+        <section class="section-padding container text-center reveal" id="about">
+            <h2 class="section-title">About AY Cosmetics</h2>
+            <p class="section-subtitle">Data-Optimized Aesthetic Excellence</p>
+            <p style="max-width: 800px; margin: 0 auto; color: var(--gray-muted); font-size: 1.1rem; line-height: 1.8;">
+                Merging the precision of direct-response analytics with high-end cosmetic color theory, we treat client-facing beauty services as psychological empowerment engines. We take a meticulous approach to visual accuracy, ensuring your signature look flawlessly complements everything from modern editorial media to custom ethnic bridal ensembles. By leveraging rigorous institutional background validation, we systematically optimize aesthetics to generate elite visual presentation outcomes.
+            </p>
+        </section>
+
+        <!-- Services Section (Merged) -->
+        <section class="section-padding container text-center reveal" id="services" style="background-color: var(--pure-white); border-top: 1px solid rgba(183,110,121,0.1); border-bottom: 1px solid rgba(183,110,121,0.1);">
+            <h2 class="section-title">The Premium Service Catalogue</h2>
+            <p class="section-subtitle">Exquisite Artistry Engineered For Direct Value Conversion</p>
+            
+            <div class="grid-3">
+                <article class="card">
+                    <div class="service-header">
+                        <h3>Bridal Couture Luxe</h3>
+                    </div>
+                    <div class="campaign-body">
+                        <span class="service-price">$850</span>
+                        <span class="service-duration">Duration: 4.5 Hours Matrix</span>
+                        <ul class="service-features">
+                            <li><span>Skin Hydration prep</span> <span>Included</span></li>
+                            <li><span>Airbrush Application</span> <span>Premium HD</span></li>
+                            <li><span>Secondary Artist Attendant</span> <span>2 Hours</span></li>
+                            <li><span>Lash customization set</span> <span>Mink Luxe</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Book Package</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="service-header" style="background-color: rgba(183,110,121,0.15);">
+                        <h3>Editorial &amp; Media Runway</h3>
+                    </div>
+                    <div class="campaign-body">
+                        <span class="service-price">$450</span>
+                        <span class="service-duration">Duration: 3 Hours Matrix</span>
+                        <ul class="service-features">
+                            <li><span>High-Contrast Contour</span> <span>Studio Optimized</span></li>
+                            <li><span>Set Lighting Adaptation</span> <span>Tested</span></li>
+                            <li><span>On-Location Touchup Kit</span> <span>Fully Complementary</span></li>
+                            <li><span>Aesthetic Direction Sync</span> <span>15 Mins Included</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%;">Reserve Studio Slate</a>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <div class="service-header">
+                        <h3>1-on-1 Professional Masterclass</h3>
+                    </div>
+                    <div class="campaign-body">
+                        <span class="service-price">$600</span>
+                        <span class="service-duration">Duration: Full-Day Intensive</span>
+                        <ul class="service-features">
+                            <li><span>Color Analysis Profile</span> <span>Full Diagnosis</span></li>
+                            <li><span>Product Audit Execution</span> <span>Shelf Cleanse</span></li>
+                            <li><span>Dynamic Skill Blueprint</span> <span>Custom PDF</span></li>
+                            <li><span>Post Session Checkup Support</span> <span>30 Days Track</span></li>
+                        </ul>
+                        <a href="#contact" class="btn btn-secondary" style="width: 100%;">Acquire Matrix Access</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="section-padding container text-center reveal" id="why-choose-us">
+            <h2 class="section-title">Why Choose Us</h2>
+            <p class="section-subtitle">Precision Driven Results</p>
+            <div class="grid-3">
+                <div class="feature-card card">
+                    <div class="feature-icon-box">01</div>
+                    <h3>Premium Sourcing</h3>
+                    <p>Only prestige non-comedogenic elements contact your skin structure, establishing all-day skin vibrancy.</p>
+                </div>
+                <div class="feature-card card">
+                    <div class="feature-icon-box">02</div>
+                    <h3>Color Harmony</h3>
+                    <p>Advanced algorithmic color theory assessments customized completely to your unique undertone profiles.</p>
+                </div>
+                <div class="feature-card card">
+                    <div class="feature-icon-box">03</div>
+                    <h3>Strategic Longevity</h3>
+                    <p>Micro-layer techniques protecting your high-definition look against camera flash distortion and heat parameters.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section (Merged) -->
+        <section class="section-padding container" id="contact" style="background-color: var(--pure-white); border-top: 1px solid rgba(183,110,121,0.1);">
+            <div class="text-center reveal" style="margin-bottom: 3rem;">
+                <h2 class="section-title">Initiate Consultation</h2>
+                <p class="section-subtitle">Secure Your Luxury Booking</p>
+            </div>
+            
+            <div class="contact-grid reveal">
+                <!-- Contact Form -->
+                <div class="hero-form-container" style="box-shadow: 0 10px 30px rgba(0,0,0,0.02); border: 1px solid var(--primary-blush);">
+                    <p style="font-size: 0.85rem; color: var(--gray-muted); margin-bottom: 2rem;">Please submit your specifications below. Studio responses are cataloged within a 12-hour tracking cycle.</p>
+                    
+                    <form action="#" method="POST" autocomplete="on">
+                        <div class="form-group">
+                            <label for="contact-name">Full Name Identifier</label>
+                            <input type="text" id="contact-name" name="name" class="form-control" placeholder="E.g., Victoria Sterling" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Communication Email</label>
+                            <input type="email" id="contact-email" name="email" class="form-control" placeholder="client@luxury-domain.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-date">Preferred Target Date</label>
+                            <input type="date" id="contact-date" name="target_date" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-notes">Project Directives / Special Requests</label>
+                            <textarea id="contact-notes" name="notes" class="form-control" rows="4" placeholder="Detail parameters regarding skin conditions, hair extensions, setting configurations or media requirements..." style="resize: none;"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Transmit Booking Pipeline Request</button>
+                    </form>
+                </div>
+
+                <!-- Contact & Address Details -->
+                <div style="display: flex; flex-direction: column; justify-content: center;">
+                    <div class="info-block">
+                        <h3>The Central Atelier</h3>
+                        <p style="font-size: 1.1rem; font-family: var(--font-primary);">742 Fifth Avenue, 12th Floor<br>New York, NY 10019</p>
+                    </div>
+                    
+                    <div class="info-block">
+                        <h3>Operational Hours Structural Slate</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 0.25rem;"><strong>Monday – Friday:</strong> 08:00 AM – 07:00 PM EST</p>
+                        <p style="font-size: 0.9rem;"><strong>Saturday – Sunday:</strong> 06:00 AM – 08:00 PM EST (Exclusive Bridal Track Only)</p>
+                    </div>
+
+                    <div class="info-block">
+                        <h3>Digital Communications Integration</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">Direct Line: concierge@aycosmetics.secure</p>
+                        <div class="social-links">
+                            <a href="#" class="social-icon" aria-label="Follow AY Cosmetics Studio Work on Instagram">IG</a>
+                            <a href="#" class="social-icon" aria-label="View AY Cosmetics Viral Video Guides on TikTok">TK</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h2>AY<span>.</span>COSMETICS</h2>
+                <p>Delivering upscale editorial aesthetic solutions and systemic data-optimized growth transformations across modern digital platforms.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#home">Home Overview</a></li>
+                    <li><a href="#services">Luxury Offerings</a></li>
+                    <li><a href="portfolio.html">Campaign Portfolio</a></li>
+                    <li><a href="#contact">Secure Booking</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Connect</h4>
+                <ul>
+                    <li><a href="#">Instagram Feed</a></li>
+                    <li><a href="#">TikTok Creative</a></li>
+                    <li><a href="#">LinkedIn Hub</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 AY COSMETICS. All premium rights reserved globally.</p>
+            <p>Designed for Accessibility &amp; Vercel Optimization Framework.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
